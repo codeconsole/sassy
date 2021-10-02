@@ -9,7 +9,7 @@ java -jar ./build/libs/sassy-0.1.war
 Grails application running at http://localhost:8080 in environment: production
 ```
 
-
+Notice that: 
 ```shell
 ./gradlew assetCompile
 

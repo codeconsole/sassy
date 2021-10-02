@@ -4,7 +4,7 @@
 
 
 ```shell
-	./gradlew assetCompile
+./gradlew assetCompile
 
 ```
 

@@ -1,6 +1,13 @@
 # Asset SASS Plugin Not Compiling
 
-
+Steps for running this webapp:
+```shell
+git clone https://github.com/codeconsole/sassy
+cd sassy
+./gradlew bootWar
+java -jar ./build/libs/sassy-0.1.war 
+Grails application running at http://localhost:8080 in environment: production
+```
 
 
 ```shell

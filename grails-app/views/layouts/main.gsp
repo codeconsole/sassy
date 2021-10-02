@@ -10,8 +10,10 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
 
     <asset:stylesheet src="application.css"/>
-    <asset:stylesheet src="sassy.scss"/>
 
+    <!-- both methods work in development, but not built for production -->
+    <asset:stylesheet src="sassy.css"/>
+    <asset:stylesheet src="sassy.scss"/> 
     <g:layoutHead/>
 </head>
 

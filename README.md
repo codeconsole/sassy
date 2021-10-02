@@ -42,11 +42,10 @@ I know thats old, but for completeness, I tried both.
 ./gradlew bootRun
 Grails application running at http://localhost:8080 in environment: development
 ```
-works
+running works, but building results in uncompiled files and 404s because built scss .css files do not exist.
 
 ```
 ./gradlew bootWar
 java -jar ./build/libs/sassy-0.1.war 
 Grails application running at http://localhost:8080 in environment: production
 ```
-but building results in uncompiled files and 404s because built scss .css files do not exist.
